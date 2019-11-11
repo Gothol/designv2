@@ -14,3 +14,44 @@
 .rm-navbar-max {
     display: none;
 }
+
+body {
+    background-color: #ddf;
+    display: block;
+    margin: 8px;
+}
+
+.wrap-all {
+    width: 1100px;
+    margin: auto;
+}
+
+.site-logo {
+    display: none;
+}
+
+.site-logo-text {
+    font-size: 2em;
+}
+
+.article h1 {
+    text-align: center;
+}
+
+.right {
+    float: right;
+    font-style: italic;
+}
+
+.block {
+    display: flex;
+    width: 400px;
+}
+
+.byline img {
+    height: 100px;
+}
+
+.om-pic {
+    font-style: italic;
+}
