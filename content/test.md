@@ -13,6 +13,6 @@ views:
 Testsida i kursen design
 =========================
 
-För att kunna testa runt med olika Markdown-konstruktiner
+För att kunna testa runt med olika Markdown-konstruktioner
 
 ### h3 rubrik

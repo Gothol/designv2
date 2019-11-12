@@ -43,7 +43,12 @@ body {
     font-style: italic;
 }
 
-.block {
+.inner-wrap.inner-wrap-main .block {
+    display: flex;
+    width: 400px;
+}
+
+.region-main.has-sidebar-right.has-sidebar .block {
     display: flex;
     width: 400px;
 }
@@ -54,4 +59,40 @@ body {
 
 .om-pic {
     font-style: italic;
+}
+
+.footer-column-wrapper {
+    display: none;
+}
+
+.region-main.has-sidebar-right.has-sidebar {
+    float: left;
+    width: 70%;
+}
+
+.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar {
+    float: right;
+    width: 25%;
+}
+
+.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar .block {
+    display: block;
+}
+
+.outer-wrap.outer-wrap-footer {
+    float: none;
+    clear: both;
+}
+
+.inner-wrap.inner-wrap-main .block.toc {
+    width: 700px;
+}
+
+.toc {
+    list-style: none;
+}
+
+.level-2 {
+    float: left;
+    margin: 4px;
 }
