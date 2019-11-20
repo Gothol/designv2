@@ -1,10 +1,14 @@
 Revision history
 ================================
-Version 2.0.x (2019-11-20)
+Version 2.0.0 (2019-11-20)
 * Moved byline to region after-main
 * Edited CSS for byline in region after-main
 * Copied themes from example.
 * installed less compilator and modules
+* Moved content from kmom01.less to layout.less and base.less.
+* Deleted unnecessary selectors.
+* Moved responsive.less and responsive_default.less to new folder responsive.
+* Changed kmom01_v2 less to include layout base and responsive instead om default-files
 
 Version 1.0.1 (2019-11-12)
 -----------------------------------
