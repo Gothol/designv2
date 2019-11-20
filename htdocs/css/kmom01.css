@@ -43,12 +43,12 @@ body {
     font-style: italic;
 }
 
-.inner-wrap.inner-wrap-main .block {
+.region-main.has-sidebar-right.has-sidebar .block {
     display: flex;
     width: 400px;
 }
 
-.region-main.has-sidebar-right.has-sidebar .block {
+.region-after-main .block{
     display: flex;
     width: 400px;
 }

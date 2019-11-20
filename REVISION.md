@@ -1,5 +1,10 @@
 Revision history
 ================================
+Version 2.0.x (2019-11-20)
+* Moved byline to region after-main
+* Edited CSS for byline in region after-main
+* Copied themes from example.
+* installed less compilator and modules
 
 Version 1.0.1 (2019-11-12)
 -----------------------------------

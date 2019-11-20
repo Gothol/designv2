@@ -2,7 +2,7 @@
 title: "Om Joel Sandström"
 views:
     byline:
-        region: main
+        region: after-main
         template: anax/v2/block/default
         sort: 2
         data:
