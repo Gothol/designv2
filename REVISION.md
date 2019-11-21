@@ -1,6 +1,16 @@
 Revision history
 ================================
+
+Version 2.0.x (2019-11-21)
+---------------------------------
+* Added kmom02.less
+* Added normalize modul to kmom02.less
+* Added link list in footer column 1.
+* Added link list in footer column 2.
+* Added link list in footer column 3.
+
 Version 2.0.0 (2019-11-20)
+----------------------------------
 * Moved byline to region after-main
 * Edited CSS for byline in region after-main
 * Copied themes from example.
@@ -8,7 +18,7 @@ Version 2.0.0 (2019-11-20)
 * Moved content from kmom01.less to layout.less and base.less.
 * Deleted unnecessary selectors.
 * Moved responsive.less and responsive_default.less to new folder responsive.
-* Changed kmom01_v2 less to include layout base and responsive instead om default-files
+* Changed kmom01_v2 less to include layout, base and responsive instead om default-files
 
 Version 1.0.1 (2019-11-12)
 -----------------------------------

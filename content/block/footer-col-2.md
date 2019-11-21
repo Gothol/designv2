@@ -1,3 +1,4 @@
 #### Footer col 2
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Här kan man hitta mig på linkedIn:
+[Offenlig profil](www.linkedin.com/in/joel-sandström-84b74042)
