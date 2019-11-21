@@ -10,19 +10,22 @@
 @import "normalize.css/normalize.less";
 
 /**
+ * Font Awesome.
+ */
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
  * Internal self contained modules, save in directory module/.
  */
 @import "module/kmom02.less";
 @import "module/stylechooser.less";  // Just an example module
 
-
-
 /**
  * Base style to affect HTML elements on a general scale.
  */
 @import "base/base.less";
-
-
 
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -32,7 +35,11 @@
 @import "responsive/responsive.less";
 @import "layout/regions.less";     // To add style for ?regions
 
-
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+@import "@desinax/responsive-menu/less/media-queries.less";
 
 /**
  * My own settings, not currently in their own module.
