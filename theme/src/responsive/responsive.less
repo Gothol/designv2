@@ -140,12 +140,24 @@
         float: none;
     }
 
-    .stylechooser fieldset select{
+    .stylechooser fieldset {
+        min-inline-size: auto;
+    }
+
+    .stylechooser select {
         max-width: 100%;
     }
+
+    .footer-column-1,
+    .footer-column-2,
+    .footer-column-3{
+        float: none;
+        width: 100%;
+    }
+
 }
 
-@media screen and (max-width: 410px){
+@media screen and (max-width: 410px) {
     .region-after-main {
         width: 100%;
     }

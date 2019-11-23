@@ -4865,6 +4865,11 @@ img {
 .region-after-main {
   width: 400px;
 }
+.region-after-main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 .byline img {
   float: left;
   height: 100px;
@@ -5035,8 +5040,17 @@ img {
   .right {
     float: none;
   }
-  .stylechooser fieldset select {
+  .stylechooser fieldset {
+    min-inline-size: auto;
+  }
+  .stylechooser select {
     max-width: 100%;
+  }
+  .footer-column-1,
+  .footer-column-2,
+  .footer-column-3 {
+    float: none;
+    width: 100%;
   }
 }
 @media screen and (max-width: 410px) {
