@@ -1,7 +1,7 @@
 Revision history
 ================================
 
-Version 2.0.x (2019-11-21)
+Version 2.0.1 (2019-11-21)
 ---------------------------------
 * Added kmom02.less
 * Added normalize modul to kmom02.less
