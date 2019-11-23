@@ -10,7 +10,8 @@ Version 2.0.x (2019-11-21)
 * Added link list in footer column 3.
 * Added font awesome tom Kmom02
 * Added responsive menu to Kmom02
-* 
+* Styled main for up to three columns
+* Styled header for three columns
 
 Version 2.0.0 (2019-11-20)
 ----------------------------------

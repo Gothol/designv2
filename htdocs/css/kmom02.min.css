@@ -3,6 +3,11 @@
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
+/*Import mixins*/
+/**
+ * A small clearfix:
+ * http://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
+ */
 /**
  * Normalize and reset the style.
  */
@@ -4734,84 +4739,10 @@ template {
  * to style up the website so it is useable.
  */
 /* Hide submenu, leave this to kmom02 */
-.rm-desktop ul {
-  display: none;
-}
-/* Hide responsive/mobile menu, leave this to kmom02 */
-.rm-navbar-max {
-  display: none;
-}
-/*body {
-    background-color: #ddf;
-    display: block;
-    margin: 8px;
-}
-
-.wrap-all {
-    width: 1100px;
-    margin: auto;
-}*/
-.site-logo {
-  display: none;
-}
-.site-logo-text {
-  font-size: 2em;
-}
-/*.article h1 {
-    text-align: center;
-}
-
-.right {
-    float: right;
-    font-style: italic;
-}
-
-.region-main.has-sidebar-right.has-sidebar .block {
-    display: flex;
-    width: 400px;
-}
-
-.region-after-main .block{
-    display: flex;
-    width: 400px;
-}
-
-.byline img {
-    height: 100px;
-}
-
-.om-pic {
-    font-style: italic;
-}*/
-/*.footer-column-wrapper {
+/*.rm-desktop ul {
     display: none;
 }*/
-/*.region-main.has-sidebar-right.has-sidebar {
-    float: left;
-    width: 70%;
-}
-
-.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar {
-    float: right;
-    width: 25%;
-}*/
-.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar .block {
-  display: block;
-}
-/*.outer-wrap.outer-wrap-footer {
-    float: none;
-    clear: both;
-}*/
-.inner-wrap.inner-wrap-main .block.toc {
-  width: 700px;
-}
-.toc {
-  list-style: none;
-}
-.level-2 {
-  float: left;
-  margin: 4px;
-}
+/* Hide responsive/mobile menu, leave this to kmom02 */
 /**
  * Style for the stylechooser.
  */
@@ -4856,13 +4787,70 @@ h1 {
 /**
  * General layout
  */
+.wrap-all {
+  width: 1100px;
+  margin: auto;
+}
 .inner-wrap {
   max-width: 1100px;
   margin: 0 auto;
 }
-.wrap-all {
-  width: 1100px;
-  margin: auto;
+.outer-wrap-header {
+  background-color: #ccf;
+}
+.outer-wrap-header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.inner-wrap-header {
+  width: 100%;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  float: left;
+  width: 15%;
+}
+.region-header-col-2 {
+  float: left;
+  width: 70%;
+}
+.outer-wrap-main {
+  width: 100%;
+  background-color: #fff;
+}
+.outer-wrap-main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.region-main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.region-main.has-sidebar {
+  float: left;
+  width: 75%;
+}
+.region-main.has-sidebar.has-sidebar-right {
+  margin-right: 0%;
+}
+.region-main.has-sidebar.has-sidebar-right.has-sidebar-left {
+  width: 70;
+  margin-left: 0%;
+}
+.region-main.has-sidebar.has-sidebar-left {
+  margin-left: 0%;
+}
+.region-sidebar-left,
+.region-sidebar-right {
+  float: left;
+  width: 20%;
+}
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  float: left;
+  width: 15%;
 }
 .right {
   float: right;
@@ -4883,13 +4871,30 @@ h1 {
 .om-pic {
   font-style: italic;
 }
-.wrap-sidebar.region-sidebar-right.has-sidebar-right.has-sidebar {
-  float: right;
-  width: 25%;
-}
 .outer-wrap.outer-wrap-footer {
   float: none;
   clear: both;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/* header layout */
+.site-logo {
+  display: none;
+}
+.site-logo-text {
+  font-size: 2em;
+}
+/* navbar layout */
+.rm-default ul li {
+  color: #cff;
 }
 /**
  * Layout for responsive style through media queries.
@@ -5180,3 +5185,8 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * My own settings, not currently in their own module.
  */
+.rm-max.rm-navbar {
+  position: relative;
+  top: 16px;
+  right: 24px;
+}
