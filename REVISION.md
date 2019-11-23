@@ -7,6 +7,8 @@ Version 2.0.2 (2019-11-23)
 * Responsive main
 * Responsive byline
 * Responsive footer
+* Adding text in reovisning kmom02
+* Setting kmom02 as default style
 
 Version 2.0.1 (2019-11-23)
 ---------------------------------
