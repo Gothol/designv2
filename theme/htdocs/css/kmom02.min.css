@@ -4836,7 +4836,7 @@ h1 {
   margin-right: 0%;
 }
 .region-main.has-sidebar.has-sidebar-right.has-sidebar-left {
-  width: 70;
+  width: 70%;
   margin-left: 0%;
 }
 .region-main.has-sidebar.has-sidebar-left {
@@ -4856,6 +4856,9 @@ h1 {
   float: right;
   font-style: italic;
 }
+.om-pic {
+  font-style: italic;
+}
 .region-after-main {
   width: 400px;
 }
@@ -4864,15 +4867,32 @@ h1 {
   height: 100px;
   margin-right: 1em;
 }
-.region-main.has-sidebar-right.has-sidebar {
+.outer-wrap-footer {
+  width: 100%;
+  background-color: #ccf;
+}
+.outer-wrap-footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.footer-column-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.footer-column-1,
+.footer-column-2,
+.footer-column-3 {
   float: left;
-  width: 70%;
+  width: 33%;
 }
-.om-pic {
-  font-style: italic;
+.block.site-footer p {
+  background-color: #ddf;
 }
-.outer-wrap.outer-wrap-footer {
-  float: none;
+.block.site-footer p::after {
+  content: "";
+  display: block;
   clear: both;
 }
 /**

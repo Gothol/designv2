@@ -12,6 +12,7 @@ Version 2.0.x (2019-11-21)
 * Added responsive menu to Kmom02
 * Styled main for up to three columns
 * Styled header for three columns
+* Styled footer for three columns
 
 Version 2.0.0 (2019-11-20)
 ----------------------------------
