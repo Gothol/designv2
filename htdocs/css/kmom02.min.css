@@ -4773,6 +4773,9 @@ body {
 h1 {
   text-align: center;
 }
+img {
+  max-width: 100%;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -4916,6 +4919,10 @@ h1 {
 .rm-default ul li {
   color: #cff;
 }
+/*left sidebar layout*/
+.toc {
+  list-style: none;
+}
 /**
  * Layout for responsive style through media queries.
  */
@@ -4932,6 +4939,11 @@ h1 {
     width: 100%;
   }
 }
+@media screen and (max-width: 920px) {
+  .toc {
+    padding-inline-start: 2%;
+  }
+}
 @media screen and (max-width: 895px) {
   .region-header-col-2 {
     width: 75%;
@@ -4941,6 +4953,29 @@ h1 {
   }
   .region-header-col-1 {
     width: 20%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-main.has-sidebar {
+    width: 70%;
+  }
+  .region-main.has-sidebar.has-sidebar-right {
+    margin-right: 0%;
+  }
+  .region-main.has-sidebar.has-sidebar-right.has-sidebar-left {
+    width: 50%;
+    margin-left: 0%;
+  }
+  .region-main.has-sidebar.has-sidebar-left {
+    margin-left: 0%;
+  }
+  .region-sidebar-left,
+  .region-sidebar-right {
+    width: 25%;
+  }
+  .region-sidebar-left.has-sidebar-right,
+  .region-sidebar-right.has-sidebar-left {
+    width: 25%;
   }
 }
 @media screen and (max-width: 685px) {
@@ -4955,6 +4990,50 @@ h1 {
   }
   .region-header-col-1 {
     width: 70%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .region-main {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  figure {
+    margin-inline-start: 2%;
+    margin-inline-end: 2%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .region-main {
+    width: 100%;
+    float: none;
+  }
+  .region-main.has-sidebar {
+    width: 100%;
+    float: none;
+  }
+  .region-main.has-sidebar.has-sidebar-right {
+    width: 100%;
+    float: none;
+  }
+  .region-main.has-sidebar.has-sidebar-right.has-sidebar-left {
+    width: 100%;
+    float: none;
+  }
+  .region-sidebar-left,
+  .region-sidebar-right {
+    width: 100%;
+    float: none;
+  }
+  .region-sidebar-left.has-sidebar-right,
+  .region-sidebar-right.has-sidebar-left {
+    width: 100%;
+    float: none;
+  }
+  .toc {
+    display: none;
+  }
+  .right {
+    float: none;
   }
 }
 /**

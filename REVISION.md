@@ -2,7 +2,9 @@ Revision history
 ================================
 
 Version 2.0.2 (2019-11-23)
-
+* Responsive header
+* Responsive images
+* Responsive main
 
 Version 2.0.1 (2019-11-23)
 ---------------------------------
