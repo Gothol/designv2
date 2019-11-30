@@ -1,7 +1,16 @@
 Revision history
 ================================
 
+Version 3.0.x (2019-11-30)
+-----------------------------
+
+* Created kmom03.less
+* Added vgrid to layout
+* Added new layout layoutgrid.less without width, margin or positioning code
+
 Version 2.0.2 (2019-11-23)
+------------------------------
+
 * Responsive header
 * Responsive images
 * Responsive main
@@ -12,6 +21,7 @@ Version 2.0.2 (2019-11-23)
 
 Version 2.0.1 (2019-11-23)
 ---------------------------------
+
 * Added kmom02.less
 * Added normalize modul to kmom02.less
 * Added link list in footer column 1.
@@ -25,6 +35,7 @@ Version 2.0.1 (2019-11-23)
 
 Version 2.0.0 (2019-11-20)
 ----------------------------------
+
 * Moved byline to region after-main
 * Edited CSS for byline in region after-main
 * Copied themes from example.
