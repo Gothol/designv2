@@ -69,24 +69,31 @@
 
 .region-main{
     #desinax-vgrid.column(@columns - 2);
-
+    #desinax-vgrid.push(1);
 //    margin-left: 5%;
 //    margin-right: 5%;
 
     &.has-sidebar{
+    //    #desinax-vgrid.column(@columns * 3 / 4);
 //        float: left;
 //        width: 75%;
 
         &.has-sidebar-right{
+            #desinax-vgrid.column(@columns * 3 / 4 - 2);
+            #desinax-vgrid.push(1);
 //            margin-right: 0%;
 
             &.has-sidebar-left{
+                #desinax-vgrid.column(@columns * 2 / 3 );
+                #desinax-vgrid.push(0);
 //                width: 70%;
 //                margin-left: 0%;
             }
         }
 
         &.has-sidebar-left{
+            #desinax-vgrid.column(@columns * 3 / 4 - 2);
+            #desinax-vgrid.push(1);
 //            margin-left: 0%;
         }
     }
@@ -94,12 +101,18 @@
 
 .region-sidebar-left,
 .region-sidebar-right{
+    #desinax-vgrid.column(@columns / 4 - 1);
 //    float: left;
 //    width: 20%;
 }
 
+.region-sidebar-right{
+    #desinax-vgrid.push(1);
+}
+
 .region-sidebar-left.has-sidebar-right,
 .region-sidebar-right.has-sidebar-left{
+    #desinax-vgrid.column(@columns / 6 );
 //    float: left;
 //    width: 15%;
 }
@@ -115,6 +128,8 @@
 
 //Styling Byline
 .region-after-main {
+    #desinax-vgrid.column(@columns / 4);
+    #desinax-vgrid.push(1);
 //    width: 400px;
 //    .clearfix();
 }
@@ -140,11 +155,13 @@
 .footer-column-1,
 .footer-column-2,
 .footer-column-3{
+    #desinax-vgrid.column(@columns / 3);
 //    float: left;
 //    width: 33%;
 }
 
-.block.site-footer p{
+.block.site-footer {
+    #desinax-vgrid.column(@columns);
     background-color: #ddf;
 //    .clearfix();
 }

@@ -1,11 +1,14 @@
 Revision history
 ================================
 
-Version 3.0.x (2019-11-30)
+Version 3.0.1 (2019-11-30)
 -----------------------------
 
 * styled header for grid
 * styled flash for grid.
+* styled main for grid
+* styled byline for grid
+* styled footer for grid
 
 Version 3.0.0 (2019-11-30)
 -----------------------------
