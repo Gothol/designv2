@@ -25,7 +25,7 @@
 
 .row {
     #desinax-vgrid.row();
-    background-color: #0f0;
+//    background-color: #0f0;
     margin-bottom: 12px;
 }
 
@@ -42,13 +42,21 @@
 
 .region-header-col-1,
 .region-header-col-3 {
+    #desinax-vgrid.column(@columns / 4 - 1);
  //float: left;
  //width: 15%;
 }
 
 .region-header-col-2 {
+    #desinax-vgrid.column(@columns / 2 + 2);
 // float: left;
 // width: 70%;
+}
+
+// Flash layout
+.region-flash {
+    #desinax-vgrid.column(@columns - 4);
+    #desinax-vgrid.push(2);
 }
 
 //main layut
@@ -60,6 +68,8 @@
 }
 
 .region-main{
+    #desinax-vgrid.column(@columns - 2);
+
 //    margin-left: 5%;
 //    margin-right: 5%;
 

@@ -4,9 +4,16 @@ Revision history
 Version 3.0.x (2019-11-30)
 -----------------------------
 
+* styled header for grid
+* styled flash for grid.
+
+Version 3.0.0 (2019-11-30)
+-----------------------------
+
 * Created kmom03.less
 * Added vgrid to layout
 * Added new layout layoutgrid.less without width, margin or positioning code
+* prepared rows for grid
 
 Version 2.0.2 (2019-11-23)
 ------------------------------
