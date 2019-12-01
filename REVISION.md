@@ -1,7 +1,7 @@
 Revision history
 ================================
 
-Version 3.0.x (2019-12-01)
+Version 3.0.2 (2019-12-01)
 ------------------------------
 
 * styled breadcrumb for grid
@@ -9,6 +9,10 @@ Version 3.0.x (2019-12-01)
 * set backround-colour to redovisa submenu.
 * set new margins to byline image.
 * added typographic grid
+* made it possible to show typographic grid.
+* moved the picture in index.md to come after the headline
+* adjusted the amount of columns afetr implementing typographic grid (wanted more space for teh text with the larger line height)
+* adjusted pic heights to match typographic grid more.
 
 Version 3.0.1 (2019-11-30)
 -----------------------------

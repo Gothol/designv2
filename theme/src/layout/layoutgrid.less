@@ -142,15 +142,23 @@
 .right {
     float: right;
     font-style: italic;
+
+    & img {
+        height: 408px;
+    }
 }
 
 .om-pic {
     font-style: italic;
+
+    & img {
+        height: 336px;
+    }
 }
 
 //Styling Byline
 .region-after-main {
-    #desinax-vgrid.column(@columns / 4 + 1);
+    #desinax-vgrid.column(@columns / 3 + 2);
     #desinax-vgrid.push(1);
 //    width: 400px;
 //    .clearfix();
@@ -165,7 +173,7 @@
 
 .byline img {
     float: left;
-    height: 100px;
+    height: 96px;
     margin-left: 0;
     margin-right: 1em;
 }

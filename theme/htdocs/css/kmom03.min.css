@@ -5265,13 +5265,19 @@ img {
   float: right;
   font-style: italic;
 }
+.right img {
+  height: 408px;
+}
 .om-pic {
   font-style: italic;
+}
+.om-pic img {
+  height: 336px;
 }
 .region-after-main {
   display: inline;
   float: left;
-  width: 28.125%;
+  width: 40.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
@@ -5284,7 +5290,7 @@ img {
 }
 .byline img {
   float: left;
-  height: 100px;
+  height: 96px;
   margin-left: 0;
   margin-right: 1em;
 }
