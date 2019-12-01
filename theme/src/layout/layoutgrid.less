@@ -41,6 +41,11 @@
     }
 }
 
+.hgrid .inner-wrap {
+    @gridImage: "../img/grid/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
 //header layout
 
  .outer-wrap-header{
@@ -67,8 +72,8 @@
 
 // Flash layout
 .region-flash {
-    #desinax-vgrid.column(@columns - 4);
-    #desinax-vgrid.push(2);
+    #desinax-vgrid.column(@columns);
+    //#desinax-vgrid.push(2);
 }
 
 // breadcrumb layout

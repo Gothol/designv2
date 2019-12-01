@@ -1,6 +1,15 @@
 Revision history
 ================================
 
+Version 3.0.x (2019-12-01)
+------------------------------
+
+* styled breadcrumb for grid
+* set grid width.
+* set backround-colour to redovisa submenu.
+* set new margins to byline image.
+* added typographic grid
+
 Version 3.0.1 (2019-11-30)
 -----------------------------
 
@@ -9,10 +18,6 @@ Version 3.0.1 (2019-11-30)
 * styled main for grid
 * styled byline for grid
 * styled footer for grid
-* styled breadcrumb for grid
-* set grid width.
-* set backround-colour to redovisa submenu.
-* set new margins to byline image.
 
 Version 3.0.0 (2019-11-30)
 -----------------------------
