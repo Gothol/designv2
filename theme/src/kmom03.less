@@ -33,8 +33,6 @@
  */
 @import "base/basegrid.less";
 
-
-
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.
@@ -71,4 +69,13 @@
          top: 16px;
          right: 24px;
      }
-}
+ }
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
+
+// Set font family to use
+@fontFamilyHeadings:  @fontFamilyArial;
+@fontFamilyBody:      @fontFamilyVerdana;
+@fontFamilyCode:      @fontFamilyCourier;

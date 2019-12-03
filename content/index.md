@@ -22,7 +22,7 @@ Jag är bosatt i Kista, Stockholm, en på det hela taget trevlig stadsdel, stör
 
 På fritiden tycker jag om att ägna mig åt levande rollspel (lajv), det kan beskrivas som att spela teater utan ett manus. Man spelar en roll utifrån vissa givna förutsättningar utan att veta vad som kommer att hända härnäst.
 
-En stor del av fritiden går också till att träna och numer även till att plugga webprogrammering. Jag har i början av 2000-talet läst digital mediedesign, där även en del webprogrammering ingick men det är verkligen kunskaper som behöver fräschas upp.
+En stor del av fritiden går också till att träna på gym samt numer även till att plugga webprogrammering. Jag har i början av 2000-talet läst digital mediedesign, där även en del webprogrammering ingick men det är verkligen kunskaper som behöver fräschas upp.
 
 Utöver digital mediedesign, har jag tidigare läst statistik, filmvetenskap och filosofi, samt enstaka kurser i statsvetenskap, litteraturvetenskap och matematik. Mina studier har haft mer fokus på att vara roliga än att vara nyttiga och det är nog först nu vid 40-års ålder som jag tror mig börja hitta vad jag faktiskt vill göra när jag blir stor, vilket är någon form av programmering eller åtminstone projektledning med förståelse för den programmering som görs.
 

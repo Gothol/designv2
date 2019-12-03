@@ -4768,7 +4768,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #ddf;
-  font: 16px/1.5 "sans-serif";
+  font: 16px/1.5 Verdana, Geneva, sans-serif;
 }
 h1,
 h2,
@@ -4776,7 +4776,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4900,7 +4900,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "monospace";
+  font-family: "Courier New", Courier, monospace;
 }
 code,
 samp {
@@ -5146,7 +5146,6 @@ img {
   width: 101.04166667%;
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
-  margin-bottom: 12px;
 }
 .row::after {
   content: "";
@@ -5261,12 +5260,17 @@ img {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+/*figure.figure.right {
+    margin-block-start: 0;
+}**/
 .right {
+  margin-block-start: 0;
+  margin-block-end: 0;
   float: right;
   font-style: italic;
 }
 .right img {
-  height: 408px;
+  height: 432px;
 }
 .om-pic {
   font-style: italic;
@@ -5277,10 +5281,14 @@ img {
 .region-after-main {
   display: inline;
   float: left;
-  width: 40.625%;
+  width: 48.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
+  margin-top: 24px;
+}
+.region-after-main p {
+  margin-top: 0;
 }
 .byline {
   margin-block-start: 0;
@@ -5305,6 +5313,11 @@ img {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.footer-column-1 h4,
+.footer-column-2 h4,
+.footer-column-3 h4 {
+  border-bottom: 1px solid #ccf;
 }
 .block.site-footer {
   display: inline;
