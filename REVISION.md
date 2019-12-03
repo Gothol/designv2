@@ -7,7 +7,10 @@ Version 3.0.3 (2019-12-03)
 * adjusted margin-top on region after main with 8px to fit into hgrid.
 * adjusted margins on figure.right to fit better into hgrid
 * changed font on headings and body
-
+* changed text color on main.
+* changed fonsize on menues for redovisa
+* changed hover behavior for links on redovisa
+* changed font-weight on link for selected redovisningssida
 
 Version 3.0.2 (2019-12-01)
 ------------------------------

@@ -5209,6 +5209,7 @@ img {
 }
 .outer-wrap-main {
   background-color: #fff;
+  color: #222;
 }
 .region-main {
   display: inline;
@@ -5351,6 +5352,18 @@ img {
 /*left sidebar layout*/
 .toc {
   list-style: none;
+  font-size: 0.875em;
+}
+.toc a:hover {
+  color: #006400;
+}
+.level-2.selected {
+  font-weight: bolder;
+}
+.next-previous {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 /**
  * Layout for responsive style through media queries.
@@ -5771,4 +5784,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   position: relative;
   top: 16px;
   right: 24px;
+}
+.breadcrumb-list ul {
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.75em;
+}
+.breadcrumb-list ul a:hover {
+  color: #006400;
+}
+.breadcrumb-list ul li {
+  display: inline;
 }
