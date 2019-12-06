@@ -1,13 +1,12 @@
 Revision history
 ================================
 
-Version 3.0.4 (2019-12-05)
+Version 3.0.4 (2019-12-06)
 ---------------------------------
 
 * made responsive with grid
 * added text in redovisning/03_kmom03.md
-
-
+* added kmom03 to navbar submenus
 
 Version 3.0.3 (2019-12-03)
 ----------------------------------
