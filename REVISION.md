@@ -1,6 +1,14 @@
 Revision history
 ================================
 
+Version 3.0.4 (2019-12-05)
+---------------------------------
+
+* made responsive with grid
+* added text in redovisning/03_kmom03.md
+
+
+
 Version 3.0.3 (2019-12-03)
 ----------------------------------
 
@@ -11,6 +19,7 @@ Version 3.0.3 (2019-12-03)
 * changed fonsize on menues for redovisa
 * changed hover behavior for links on redovisa
 * changed font-weight on link for selected redovisningssida
+* styled next-previous to a flex-box with direction row reverse and justify content space between yto place next and previous links on the sides of main.
 
 Version 3.0.2 (2019-12-01)
 ------------------------------
