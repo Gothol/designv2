@@ -1,6 +1,12 @@
 Revision history
 ================================
 
+Version 4.0.0 (2019-12-15)
+----------------------------------------
+
+* added structure for reports-pages
+* added Rapport to the navbar.
+
 Version 3.0.4 (2019-12-06)
 ---------------------------------
 

@@ -39,6 +39,30 @@ return [
             ],
         ],
         [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter från kursmomenten.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Kmom04",
+                        "url" => "rapport/kmom04_fargschema",
+                        "title" => "Rapport för kmom04.",
+                    ],
+                    /*[
+                        "text" => "Kmom05",
+                        "url" => "redovisning/kmom02",
+                        "title" => "Redovisning för kmom02.",
+                    ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "redovisning/kmom03",
+                        "title" => "Redovisning för kmom03.",
+                    ],*/
+                ],
+            ],
+        ],
+        [
             "text" => "Om",
             "url" => "om",
             "title" => "Om denna webbplats.",
