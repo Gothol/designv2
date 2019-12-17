@@ -5317,42 +5317,12 @@ img {
   margin-right: 0.52083333%;
   background-color: #ddf;
 }
-/**
- * Layout style for general structure of header, navbar, main, footer
- * and other regions of the page including route specific styles.
- */
-/**
- * Variables
- */
-/**
- * General layout
- */
 /* header layout */
 .site-logo {
   display: none;
 }
 .site-logo-text {
   font-size: 2em;
-}
-/* navbar layout */
-.rm-desktop ul li {
-  background-color: #ccf;
-}
-/*left sidebar layout*/
-.toc {
-  list-style: none;
-  font-size: 0.875em;
-}
-.toc a:hover {
-  color: #006400;
-}
-.level-2.selected {
-  font-weight: bolder;
-}
-.next-previous {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
 }
 /**
  * Layout for responsive style through media queries.
@@ -5850,9 +5820,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     display: none;
   }
 }
-/**
- * My own settings, not currently in their own module.
- */
+.rm-desktop ul li {
+  background-color: #ccf;
+}
 .rm-max.rm-navbar {
   position: relative;
   top: 16px;
@@ -5869,3 +5839,22 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .breadcrumb-list ul li {
   display: inline;
 }
+/*left sidebar layout*/
+.toc {
+  list-style: none;
+  font-size: 0.875em;
+}
+.toc a:hover {
+  color: #006400;
+}
+.level-2.selected {
+  font-weight: bolder;
+}
+.next-previous {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

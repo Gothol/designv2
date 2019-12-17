@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 
  /*Import mixins*/
@@ -40,9 +40,9 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less"; // typographic grid
 @import "@desinax/typographic-grid/less/typography-defaults.less"; // typographic grid
 @import "layout/layoutgrid.less";
-@import "layout/layout_kmom03.less";
+@import "module/logo.less";
 @import "responsive/responsive_grid.less";
-@import "layout/regions.less";     // To add style for ?regions
+//@import "layout/regions.less";     // To add style for ?regions
 
 // Default grid, change to fit your requirements.
 /**@columnWidth:   30;
@@ -55,34 +55,13 @@
  */
 @import "@desinax/responsive-menu/less/responsive-menu.less";
 @import "@desinax/responsive-menu/less/media-queries.less";
+@import "module/navigation.less";
 
 /**
  * My own settings, not currently in their own module.
  */
 
- .rm-max {
 
-     // Place the menu button
-     &.rm-navbar {
-         position: relative;
-         top: 16px;
-         right: 24px;
-     }
- }
-
- .breadcrumb-list ul{
-     list-style: none;
-     text-decoration: none;
-     font-size: 0.75em;
-
-     & a:hover {
-         color: #006400;
-     }
-
-     & li {
-         display: inline;
-     }
- }
 
 // Magic number and base fontsize
 @magicNumber:  24px;  // 22px
@@ -92,3 +71,38 @@
 @fontFamilyHeadings:  @fontFamilyArial;
 @fontFamilyBody:      @fontFamilyVerdana;
 @fontFamilyCode:      @fontFamilyCourier;
+
+// set colors to use
+
+//bodycoclors
+@bgColorHtml: #424242;
+@bgColorBody: #ddf;
+@colorBody: #333;
+
+//regioncolors
+@bgcolorheaderfooter: #ccf;
+@colorheaderfooter: #333;
+@bgcolormain: #fff;
+@colormain: #222;
+@bgcolorsitefooter: #ddf;
+@colorsitefooter: #333;
+@bgcolorflash: #ccf;
+@colorflash: #333;
+@bgcolorbread: #ccf;
+@colorbread: #333;
+@bgcolorside: #fff;
+@colorside: #222;
+@bgcolorbyline: #ddf;
+@colorbyline: #333;
+
+//color navigation
+@bgcolornav: #ccf;
+@colornav: #333;
+@colorhoover: #006400;
+
+//linkcolors
+@acolor: #00f;
+@avisitiedcolor: #551a8b;
+
+//logocolors
+@logocolor: #00f;

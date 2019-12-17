@@ -1,11 +1,23 @@
 Revision history
 ================================
 
-Version 4.0.0 (2019-12-15)
+Version 4.0.1 (2019-12-17)
+---------------------------------------
+
+* Created kmom04.less
+* Created module navigation.less and copied styles for navbar, bredacrumb and left side menu class toc there.
+* Created modlue logo.less and copied styles regarding the logo there.
+* Included navigation.less and logo.less in kmom04.less
+* Deleted module layout_kmom03.less from kmom04.less
+* Added variables for all colours in layoutgrid.less
+* Added variables for colors on logo and links
+
+Version 4.0.0 (2019-12-16)
 ----------------------------------------
 
 * added structure for reports-pages
 * added Rapport to the navbar.
+* added rapport kmom04_fargschema
 
 Version 3.0.4 (2019-12-06)
 ---------------------------------

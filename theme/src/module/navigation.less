@@ -1,0 +1,58 @@
+//Variables
+
+@bgcolornav: #ccf;
+@colornav: #333;
+@colorhoover: #006400;
+
+//styling navbar
+
+.rm-desktop ul li{
+    background-color: @bgcolornav;
+    color: @colornav;
+}
+
+.rm-max {
+
+    // Place the menu button
+    &.rm-navbar {
+        position: relative;
+        top: 16px;
+        right: 24px;
+    }
+}
+
+//styling navigation under flash-pic
+
+.breadcrumb-list ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.75em;
+
+    & a:hover {
+        color: @colorhoover;
+    }
+
+    & li {
+        display: inline;
+    }
+}
+
+/*left sidebar layout*/
+.toc {
+    list-style: none;
+    font-size: 0.875em;
+
+    & a:hover{
+        color: @colorhoover;
+    }
+}
+
+.level-2.selected {
+    font-weight: bolder;
+}
+
+.next-previous {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}

@@ -8,7 +8,19 @@
  */
 
  @bgcolorheaderfooter: #ccf;
-
+ @colorheaderfooter: #333;
+ @bgcolormain: #fff;
+ @colormain: #222;
+ @bgcolorsitefooter: #ddf;
+ @colorsitefooter: #333;
+ @bgcolorflash: #ccf;
+ @colorflash: #333;
+ @bgcolorbread: #ccf;
+ @colorbread: #333;
+ @bgcolorside: #fff;
+ @colorside: #222;
+ @bgcolorbyline: #ddf;
+ @colorbyline: #333;
 
 /**
  * General layout
@@ -50,6 +62,7 @@
 
  .outer-wrap-header{
      background-color: @bgcolorheaderfooter;
+     color: @colorheaderfooter;
 //     .clearfix();
  }
 
@@ -59,24 +72,32 @@
 
 .region-header-col-1,
 .region-header-col-3 {
-    #desinax-vgrid.column(@columns / 4 - 1);
+    #desinax-vgrid.column(@columns / 4 - 2);
  //float: left;
  //width: 15%;
 }
 
 .region-header-col-2 {
-    #desinax-vgrid.column(@columns / 2 + 2);
+    #desinax-vgrid.column(@columns / 2 + 4);
 // float: left;
 // width: 70%;
 }
 
 // Flash layout
+.outer-wrap-flash {
+    background-color: @bgcolorflash;
+    color: @colorflash;
+}
 .region-flash {
     #desinax-vgrid.column(@columns);
     //#desinax-vgrid.push(2);
 }
 
 // breadcrumb layout
+.outer-wrap-bredacrumb {
+    background-color: @bgcolorbread;
+    color: @colorbread;
+}
 .region-bredacrumb {
     #desinax-vgrid.column(@columns);
 }
@@ -85,8 +106,8 @@
 
 .outer-wrap-main {
 //    width: 100%;
-    background-color: #fff;
-    color: #222;
+    background-color: @bgcolormain;
+    color: @colormain;
 //    .clearfix();
 }
 
@@ -124,6 +145,8 @@
 
 .region-sidebar-left,
 .region-sidebar-right{
+    background-color: @bgcolorside;
+    color: @colorside;
     #desinax-vgrid.column(@columns / 4 - 1);
 //    float: left;
 //    width: 20%;
@@ -162,6 +185,11 @@
 }
 
 //Styling Byline
+.outer-wrap-after-main {
+    background-color: @bgcolorbyline;
+    color: @colorbyline;
+}
+
 .region-after-main {
     #desinax-vgrid.column(@columns / 2);
     #desinax-vgrid.push(1);
@@ -193,6 +221,7 @@
 .outer-wrap-footer {
 //    width: 100%;
     background-color: @bgcolorheaderfooter;
+    color: @colorheaderfooter;
 //    .clearfix();
 }
 
@@ -215,6 +244,7 @@
 
 .block.site-footer {
     #desinax-vgrid.column(@columns);
-    background-color: #ddf;
+    background-color: @bgcolorsitefooter;
+    color: @colorsitefooter;
 //    .clearfix();
 }
