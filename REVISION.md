@@ -11,6 +11,7 @@ Version 4.0.1 (2019-12-17)
 * Deleted module layout_kmom03.less from kmom04.less
 * Added variables for all colours in layoutgrid.less
 * Added variables for colors on logo and links
+* Added background-color, color and columns to footer-coulmn wrap insteda of footer-inner wrap to fix minor grafic failure in the footer.
 
 Version 4.0.0 (2019-12-16)
 ----------------------------------------

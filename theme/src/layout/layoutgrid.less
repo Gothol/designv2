@@ -94,11 +94,11 @@
 }
 
 // breadcrumb layout
-.outer-wrap-bredacrumb {
+.outer-wrap-breadcrumb {
     background-color: @bgcolorbread;
     color: @colorbread;
 }
-.region-bredacrumb {
+.region-breadcrumb {
     #desinax-vgrid.column(@columns);
 }
 
@@ -220,12 +220,15 @@
 
 .outer-wrap-footer {
 //    width: 100%;
-    background-color: @bgcolorheaderfooter;
-    color: @colorheaderfooter;
+
 //    .clearfix();
 }
 
 .footer-column-wrapper {
+    #desinax-vgrid.column(@columns);
+    background-color: @bgcolorheaderfooter;
+    color: @colorheaderfooter;
+
 //    .clearfix();
 }
 
