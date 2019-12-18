@@ -61,6 +61,26 @@
  * My own settings, not currently in their own module.
  */
 
+ .right {
+     display: none;
+ }
+
+ .om-pic {
+     display: none;
+ }
+
+ .byline {
+     display: none;
+ }
+
+ .site-logo-text-icon {
+     display: none;
+ }
+
+ .region-flash {
+     display: none;
+ }
+
 
 
 // Magic number and base fontsize
@@ -68,27 +88,27 @@
 @fontSizeBody: 16px;
 
 // Set font family to use
-@fontFamilyHeadings:  @fontFamilyArial;
-@fontFamilyBody:      @fontFamilyVerdana;
+@fontFamilyHeadings:  @fontFamilyCourier;
+@fontFamilyBody:      @fontFamilyCourier;
 @fontFamilyCode:      @fontFamilyCourier;
 
 // set colors to use
 
 //bodycoclors
-@bgColorHtml: #a25efd;
-@bgColorBody: #ddf;
-@colorBody: #333;
+@bgColorHtml: #031c02;
+@bgColorBody: #54d44d;
+@colorBody: #031c02;
 
 //regioncolors
-@bgcolorheaderfooter: #96d1ff;
+@bgcolorheaderfooter: #cef6cc;
 @colorheaderfooter: @colorBody;
-@bgcolormain: #fff;
-@colormain: #222;
+@bgcolormain: #cef6cc;
+@colormain: #031c02;
 @bgcolorsitefooter: @bgColorBody;
 @colorsitefooter: @colorBody;
-@bgcolorflash: #a0a0ff;
+@bgcolorflash: #54d44d;
 @colorflash: @colorBody;
-@bgcolorbread: #a0a0ff;
+@bgcolorbread: #cef6cc;
 @colorbread: @colorBody;
 @bgcolorside: @bgcolormain;
 @colorside: @colormain;
@@ -96,13 +116,20 @@
 @colorbyline: @colorBody;
 
 //color navigation
-@bgcolornav: #96d1ff;
+@bgcolornav: #cef6cc;
 @colornav: @colorBody;
-@colorhoover: #006400;
+@colorhoover: #089d00;
+@maxBgColor: #031c02;
+@maxMenuItemClickedBgColor: transparent; //@navbarMenuButtonClickedColor;
+@maxButtonColor: #031c02;
+@maxButtonClickedColor:     @navbarMenuButtonClickedColor;
+@maxButtonSubmenuBgColor: #089d00;
+@maxButtonSubmenuHoverBgColor: #45a540;
+@mobileColor: #cef6cc;
 
 //linkcolors
-@acolor: #00f;
-@avisitiedcolor: #551a8b;
+@acolor: #089d00;
+@avisitiedcolor: #45a540;
 
 //logocolors
-@logocolor: #00f;
+@logocolor: #031c02;

@@ -1,6 +1,15 @@
 Revision history
 ================================
 
+Version 4.0.2 (2019-12-18)
+---------------------------------------
+
+* Made some changes to the colors on kmom04.less.
+* Created 04_minimalistic.less.
+* Implemented monochromatic colorscheme on 04_minimalistic.less.
+* Implemented monochromatic coclorscheme on mobile menu.
+* Concealed all images
+
 Version 4.0.1 (2019-12-17)
 ---------------------------------------
 
@@ -12,6 +21,7 @@ Version 4.0.1 (2019-12-17)
 * Added variables for all colours in layoutgrid.less
 * Added variables for colors on logo and links
 * Added background-color, color and columns to footer-coulmn wrap insteda of footer-inner wrap to fix minor grafic failure in the footer.
+* changed backgroundcolor on header. flash, breadcrumb and footer columns to make more contrast against other themes in kmom04
 
 Version 4.0.0 (2019-12-16)
 ----------------------------------------
