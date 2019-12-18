@@ -4749,14 +4749,14 @@ template {
  */
 html {
   overflow-y: scroll;
-  background-color: #a25efd;
+  background-color: #fcd01d;
 }
 body {
   margin: 8px;
   display: block;
   padding: 0;
-  color: #333;
-  background-color: #ddf;
+  color: #c4f24b;
+  background-color: #550990;
   font: 16px/1.5 Verdana, Geneva, sans-serif;
 }
 h1,
@@ -5171,8 +5171,8 @@ a:visited {
   background-image: url("../img/grid/magic-number-24px.png");
 }
 .outer-wrap-header {
-  background-color: #96d1ff;
-  color: #333;
+  background-color: #fcf51d;
+  color: #182100;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5191,7 +5191,7 @@ a:visited {
 }
 .outer-wrap-flash {
   background-color: #a0a0ff;
-  color: #333;
+  color: #c4f24b;
 }
 .region-flash {
   display: inline;
@@ -5202,7 +5202,7 @@ a:visited {
 }
 .outer-wrap-breadcrumb {
   background-color: #a0a0ff;
-  color: #333;
+  color: #c4f24b;
 }
 .region-breadcrumb {
   display: inline;
@@ -5286,8 +5286,8 @@ a:visited {
   height: 336px;
 }
 .outer-wrap-after-main {
-  background-color: #ddf;
-  color: #333;
+  background-color: #550990;
+  color: #c4f24b;
 }
 .region-after-main {
   display: inline;
@@ -5319,8 +5319,8 @@ a:visited {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #96d1ff;
-  color: #333;
+  background-color: #fcf51d;
+  color: #182100;
 }
 .footer-column-1,
 .footer-column-2,
@@ -5334,7 +5334,7 @@ a:visited {
 .footer-column-1 h4,
 .footer-column-2 h4,
 .footer-column-3 h4 {
-  border-bottom: 1px solid #96d1ff;
+  border-bottom: 1px solid #fcf51d;
 }
 .block.site-footer {
   display: inline;
@@ -5342,8 +5342,8 @@ a:visited {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #ddf;
-  color: #333;
+  background-color: #550990;
+  color: #c4f24b;
 }
 /* header layout */
 .site-logo {
@@ -5740,7 +5740,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   display: block;
 }
 .rm-max .rm-small .rm-button {
-  color: #333;
+  color: #0e0117;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
   color: #96d1ff;
@@ -5825,7 +5825,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-desktop ul li {
   background-color: #96d1ff;
-  color: #333;
+  color: #c4f24b;
 }
 .rm-max.rm-navbar {
   position: relative;

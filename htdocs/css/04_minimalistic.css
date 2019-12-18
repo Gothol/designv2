@@ -5624,7 +5624,7 @@ a.rm-button .rm-button-face-2 {
   transition: color 0.1s ease;
 }
 a.rm-button.rm-clicked {
-  color: #9FB129;
+  color: #45a540;
   background-color: transparent;
 }
 a.rm-button.rm-clicked .rm-button-face-1 {
@@ -5743,7 +5743,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   color: #031c02;
 }
 .rm-max .rm-small .rm-button.rm-clicked {
-  color: #9FB129;
+  color: #45a540;
   position: fixed;
   top: 16px;
   right: 24px;
