@@ -1,11 +1,12 @@
 Revision history
 ================================
 
-Version 4.0.3 (2019-12-18)
+Version 4.0.3 (2019-12-19)
 
 * Changed color on close button in mobile menu in kmom04.less and 04_minimalistic.less.
 * Created 04_colorful.less.
-* Changed colors on html, body and header in 04_colorful.less.
+* Changed colors in 04_colorful.less.
+* Changed colors on mobilemenu in 04_colorful.less
 
 Version 4.0.2 (2019-12-18)
 ---------------------------------------
