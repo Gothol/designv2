@@ -7,6 +7,7 @@ Version 4.0.3 (2019-12-19)
 * Created 04_colorful.less.
 * Changed colors in 04_colorful.less.
 * Changed colors on mobilemenu in 04_colorful.less
+* Changed fonts in 04_colorful.less 
 
 Version 4.0.2 (2019-12-18)
 ---------------------------------------
