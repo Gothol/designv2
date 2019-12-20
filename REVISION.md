@@ -1,6 +1,12 @@
 Revision history
 ================================
 
+Version 4.0.5 (2019-12-20)
+------------------------------------------
+
+* added kmom04 to the submenu redovisning.
+* added text redovisning kmom04
+
 Version 4.0.4 (2019-12-20)
 --------------------------------------------
 
