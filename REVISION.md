@@ -1,13 +1,21 @@
 Revision history
 ================================
 
+Version 4.0.4 (2019-12-19)
+--------------------------------------------
+
+* created 04_dark.less.
+* added colorscheme to 04_dark.less.
+* added colorscheme to 04_dark mobile menu.
+
 Version 4.0.3 (2019-12-19)
+----------------------------------------------
 
 * Changed color on close button in mobile menu in kmom04.less and 04_minimalistic.less.
 * Created 04_colorful.less.
 * Changed colors in 04_colorful.less.
 * Changed colors on mobilemenu in 04_colorful.less
-* Changed fonts in 04_colorful.less 
+* Changed fonts in 04_colorful.less
 
 Version 4.0.2 (2019-12-18)
 ---------------------------------------
