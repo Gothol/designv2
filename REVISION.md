@@ -1,12 +1,13 @@
 Revision history
 ================================
 
-Version 4.0.4 (2019-12-19)
+Version 4.0.4 (2019-12-20)
 --------------------------------------------
 
 * created 04_dark.less.
 * added colorscheme to 04_dark.less.
 * added colorscheme to 04_dark mobile menu.
+* Changed fonts in 04_dark.less.
 
 Version 4.0.3 (2019-12-19)
 ----------------------------------------------
