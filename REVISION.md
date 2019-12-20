@@ -6,6 +6,7 @@ Version 4.0.5 (2019-12-20)
 
 * added kmom04 to the submenu redovisning.
 * added text redovisning kmom04
+* Activated kmom04 as deafult stylesheet.
 
 Version 4.0.4 (2019-12-20)
 --------------------------------------------
