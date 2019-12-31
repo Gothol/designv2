@@ -1,11 +1,12 @@
 Revision history
 ================================
 
-Version 5.0.0 (2019-12-29)
+Version 5.0.0 (2019-12-30)
 -------------------------------------
 
 * Created report 05_laddningstid.md
 * added content to report 05_laddningstid.md
+* finished report 05_laddningstid.md
 
 Version 4.0.5 (2019-12-20)
 ------------------------------------------
