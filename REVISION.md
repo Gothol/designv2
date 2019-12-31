@@ -1,6 +1,14 @@
 Revision history
 ================================
 
+Version 5.0.1 (2019-12-31)
+------------------------------------
+
+* Created kmom05.less.
+* Added blogg to content
+* Uppdated navbar and submenus.
+
+
 Version 5.0.0 (2019-12-30)
 -------------------------------------
 
