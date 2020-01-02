@@ -1,30 +1,38 @@
 ---
-author: mos
+author: Joel Sandström
 category:
-    - utbildning
-    - kursnyheter
-published: "2018-10-03"
+    - Design
+    - Kmom05
+published: "20200103"
 ---
-Mitt första inlägg
+Den svävande boxen
 ==================================
 
-Här är mitt allra första blogg inlägg.
-
-Ett blogg-inlägg innehåller en tagg för `<!--more-->` som bestämmer vilken text som visas på förstasidan.
+Olika versioner av en svävande box.
 
 <!--more-->
 
-Sen handlar det om att skriva sina blogg-inlägg...
+Det här är en bild jag tog på ett lajv för ett tag sedan, tagen med vanlig mobilkamera. den röda boxen svävar på riktigt med hjälp av elektromagneter. Bilden har en försämrad kvalitet för att fngera bättre på webben, jag kan dock inte se att det är någon skillnad mot orginalet rent bildmässigt.
+[FIGURE src="image/blogg/Hoovering_box.jpg?q=30" class="blogg center" caption="Svävande box med ring"]
 
 
 
-Rubrik 2 {#anchor-hit}
+Närbild {#narbild}
 -----------------------------------
 
-Text.
+Här kommer en närbild på boxen så att man tydligare kan se att den svävar.
+[FIGURE src="image/blogg/Hoovering_box.jpg?w=300&h=300&crop-to-fit&area=35,15,30,35" class="blogg right" caption="närbild på den svävande boxen."]
 
 
 
-### Rubrik 3 {#vad-som}
+### Skarp bild {#skarp}
 
-Text.
+Här kommer en skarpare närbild på boxen där filtret sharpen använts i Cimage.
+[FIGURE src="image/blogg/Hoovering_box.jpg?w=300&h=300&crop-to-fit&area=35,15,30,35&sharpen" class="blogg left" caption="Skarpare bild på den svävande boxen."]
+
+
+### Svart-vit bild {#svartvit}
+
+Och som en sista variant kommer hela bilden i gråskala
+
+[FIGURE src="image/blogg/Hoovering_box.jpg?w=500&h=500&sharpen&f=grayscale" class="blogg center" caption="Svävande box i gråskala"]

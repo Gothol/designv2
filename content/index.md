@@ -16,7 +16,7 @@ Min me-sida i kursen design
 En presentation av mig Joel Sandström:
 ---------------------------------------
 
-[FIGURE src="image/joel.jpg?h=400" class="right" caption="Så här kan jag se ut när jag lajvar"]
+[FIGURE src="image/joel.jpg?h=400" class="main right" caption="Så här kan jag se ut när jag lajvar"]
 
 Jag är bosatt i Kista, Stockholm, en på det hela taget trevlig stadsdel, största fördelen är dock att det är nära till jobbet. Jag jobbar sedan ett par år tillbaka som projektledare på Tele2. Vanligtvis består projekten av implementation av telefonväxlar åt företag eller kommuner.
 

@@ -7,7 +7,12 @@ Version 5.0.1 (2019-12-31)
 * Created kmom05.less.
 * Added blogg to content
 * Uppdated navbar and submenus.
-
+* Added pictures to use in the blogg.
+* Edited the pictures with Cimage.
+* added text and pictures to three entries in the blogg.
+* Edited texts on the indexpage of the blogg.
+* Edited text in the right column of the blogg.
+* Added Byline to the blogg.
 
 Version 5.0.0 (2019-12-30)
 -------------------------------------
