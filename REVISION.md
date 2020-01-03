@@ -1,7 +1,7 @@
 Revision history
 ================================
 
-Version 5.0.1 (2019-12-31)
+Version 5.0.1 (2020-01-03)
 ------------------------------------
 
 * Created kmom05.less.
@@ -13,6 +13,11 @@ Version 5.0.1 (2019-12-31)
 * Edited texts on the indexpage of the blogg.
 * Edited text in the right column of the blogg.
 * Added Byline to the blogg.
+* Added text to blogg-entries.
+* Added code i kmom05.less, to clear float with every h3.
+* Changed style for navbar to ensure that it's is shown in one row even with the blogg link in it.
+* edited pictures with Cimage and added the code to Figure shortcode in blogg-entries.
+* Added text in redovisning kmom05.
 
 Version 5.0.0 (2019-12-30)
 -------------------------------------
