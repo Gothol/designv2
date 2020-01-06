@@ -6,6 +6,7 @@ Version 6.0.0 (2020-01-05)
 
 * Created report 03_kmom06_designprincip.md
 * Added links to 03_kmom06_designprincip.md in the navbar and the responsive navbar.
+* Added content to 03_kmom06_designprincip.md
 
 Version 5.0.1 (2020-01-03)
 ------------------------------------

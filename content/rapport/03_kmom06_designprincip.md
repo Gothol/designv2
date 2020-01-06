@@ -1,76 +1,66 @@
 Utvärdering av laddningstider på webplatser
 =======================
 
-Det här är en utvärdering av laddningstider på tre stycken webplatser. Syftet är att utvärdera tiden det tar ladda olika sidor på platserna och vilka förbättringsåtgärder som platserna kan göra.
+Det här är en utvärdering av designen på tre stycken webplaster. Syftete är att avgöra vilka designprinciper och designelement som använts för att sedan analysera om designen lyckas eller inte.
 
 Urval
 -----------------------
 
-Jag har valt att utvärdera e-butiker för kläder där du kan beställa måttsydda och egendesignade skjortor. De här är sidor som alla är bild och script-tunga, i och med att du redan på sidan skall kunna välja olika tyger och design för din skjorta och efter varje val se hur skjortan ska kunna se ut. Det är alltså sidor där hänsyn till laddningstider borde en mycket viktig del av siddesignen. De webplatser jag valt är itailor.com, tailorstore.se och skjortfabriken.com. Urvalet gjordes genom att göra en googlesökning på "designa egen skjorta herr" och sedan välja de tre första platserna där jag kunde beställa en skjorta som var både måttsydd och egendesignad. itailor.com, tailorstore.se hamnade överst då de betalat för annonsplatser.
+Jag har valt att utvärdera webplatsen för tre stycken streamingtjänster för film och serier, Netflix, HBO Nordic och Viaplay. I samtliga fall valde jag deras svenska sida som utgångspunkt. Det här är de tre streamingtjänster som jag själv nyttjat jag är också ganska säker på att de alla är bland de populäraste i Sverige, jag har dock tyvärr inte kunnat hitta ordentliga siffror på det (annat än för Netflix som är störst), utan fått gå på den uppfattning jag fått från reklam och hörsägen.
 
 Metod
 -----------------------
 
-För varje plats valde jag tre sidor att mäta hastigheten på, jag mätte hastigehten dels med Google pagespeed insights https://developers.google.com/speed/pagespeed/insights/ och dels med dev tools network i chrome. Med pagespeed gjorde jag en mätning för mobiler och för datorer på varje sida. Med dev tools mätte jag tre gåner på varje sida och använde mig sedan av medelvärdet från dessa mätningar. Varje mätning utfördes genom en omladdning av sidan med komandot shift+ctrl+r med disable cache aktiverat i dev tools. Resultaten sparades i ett excellark på google documents.
+Jag har använt mig av två källor för att diskutera designprinciper det Visual literacy https://dbwebb.se/article/vl.pdf och Design elements and principles https://www.canva.com/learn/design-elements-principles/ utifrån deras begrepp av designprinciper har jag sedan försökt utvärdera de olika platserna. Jag har inte loggat in på någon av platserna utan bara sett till de delar som är tillgängliga utan ett medlemskap.
 
 Resultat
 -----------------------
 
-Insamlad mätdata finn i detta dokument: https://docs.google.com/spreadsheets/d/1PlYc7xUm5i_sAMts6npojun0wtriuhsfxtwHKBBMqBg/edit?usp=sharing. I sammanfattningen så ser ni det som visas på pagespeed samt längst ner i varje mobilkolumn finns också värden från dev tools. I fliken för respektive plats finns detaljer från pagespeed och samliga tre mätningar från dev tools för varje sida.
+Samtliga webplatsers mål och syfte skulle jag säga är att sälja in månadspremunationer av deras streamingtjänster, sekundärt syfte är ju också då att tillhandhålla streamingtjänsten. Jag säger sekundärt då själva tjänsten oftast är tänkt att nyttjas via appar mer än via själva webplatsen.
+
+Viaplay
+
+Sidan kännetecknas av balans och variation om jag förhåller mig till de designprinciper som nämns i Visual literacy. Utgår jag från Design elements and principles så kännetecknas den också av kontraster och symmetri. Det finns en tydlig mittlinje och lika många boxar på båda sidor om den. Det är skarpa kontraster mellan svarta och vita delar av sidan. Storlke och form på sidans delar varierar genom sidan men balansen behålls ändå.
+
+Designelemnet som jag kan hitta är linjer i form av tydliga linjer mellan sidans olika boxar, linjerna skapas genom negativt utrymme. Jag hittar också en tydlig grön färg på de knappar där jag kan köpa saker. Det bryts mot balans och symmerti-reglerna på ett par ställen där det blir ett ojämnt antal boxar, det känns dock rätt så de lyckas bryta regler på ett bra sätt. Det finns också en tydlig grid genom hela sidan.
+
+Vid en snabb blick på några undersidor så verkar de principer som gäller för första sidan följa med vilket skapar en sammanhållen känsla för hela webplasten. Ett undantag är dock om man klickar sig vidare för att beställa film och serier abonnemang. Den sidan har mycket färre kontraster, inte samma symmetri, men har dock fortfarande en balans och en del variation. Det är bara en centrerad kolumn och fälten som finns i den varierar mellan fyrkantiga och fyrknater med halvcirklar till kort-sidor.
+
+Jag kan tycka att sidan lite grand missar sitt mål, knapparna för att köpa abonnemang hade kunnat må bra av att ha en tydligare signal-färg, den svartvia kontrasten mellan sidans fält skriker ganska mycket och dra uppmärksamhet till sig istället för till sidans innehåll. däremot gör balansen, symmertrin och varaiantionen av storlekar i kombination med att reglerna bryts då och att man inte direkt tappar intresset.
 
 
-iTailor
-Jag mätte på första sidan https://www.itailor.com/, sidan för skjortdesign https://www.itailor.com/designshirts/ och "Om oss" sidan https://www.itailor.com/about-us.php.
-Itailor hade för mobilerna ett riktigt dåligt resultat på första sidan och på sidan för skjortdesign (26 i betyg på pagespeed på båda sidorna) och ett bättre men fortfarande dåligt resultat på Om-sidan (77). För datorer var betyget högre men fortfarande dåligt på alla sidor utom om-sidan, 70 för startsidan, 56 för design-sidan och 91 för om-sidan.
-Samtliga mätningar på pagespeed föreslog förbättringen "Minska svarstiderna från servern (tid till första byte)", förbättringen "Skicka bilderna i modernare bildformat" förekom på alla sidor utom om-sidan.
+Netflix
 
-Dev Tools ger att första sidan är 13 mb stor, har 155 resurser som laddas och blir färdigladdad på 1,1 minuter. Designsidan är 4,9 mb stor, har 144 resurser som laddas och blir färdigladdad på 13,72 sekunder.
-Om-sidan är 1,3 mb stor, har 37 resurser som laddas och blir färdigladdad på 4,57 sekunder.
+Netflix sida kännetecknas av rörelse, sammanhållning, och balans av de designprinciper som nämns i Visual literacy. Om jag går vidare till Design elements and principles så vill jag lägga till riktning. första bilden vi får är komponerad utav bilder från olika serier och lutande linjer vilket ger ett intryck av rörelser, längre ner på sidan så är dte inte stillbilder utan loopade videor som visas vilket också skara rörelse. Sian är uppbyggt med textblock och videor som byter sida om en mittlinje (aningen assymetriskt), vilket skapar en zick-zack riktning för ögat att följa. Det är samma svara bakgrund och vita text överallt vilket håller ihop sidan. Balansen som skapas är assymetrisk men ändå kring en fiktiv mittlinje och skapas i att textblocken är lika stora och video-blocken är lika stora. Ser man över två rader så finns där en assymetrisk balans.
 
-Printscreens:
+Designelement jag kan hitta är färg med tydlig röd signalfärg för de knappar som skall dra ögonen till sig. Typografi i ett tydligt sans-serif typsnitt, där de stora textblocken gör en medveten om texten. Kontrast i svart bakgrund med vit text och linjer. Dels de linjer som skapar rörelsen i den första bilden men också som tydliga horisontella avdelare längre ner på sidan.
 
-[FIGURE src="image/rapport05/itailor01.png?w=400" class="rapport" caption="iTailor print 1"]
+En snabb titt på underliggande sidor tar bort en del av helhetsintrycket, bakgrundsfärgen byts ofta till vit, balansen finns inte alltid där och inte heller intrycket av rörelse. Varje sida för sig känns hyfsat sammanhållen men kanske inte med övriga webplasten.
 
-Tailorstore
-Jag mätte på första sidan https://www.tailorstore.se/, sidan för skjortdesign https://www.tailorstore.se/skjortdesignern och "Brand-story" sidan https://www.tailorstore.se/brand-story-1 hade egentligen velat mäta på en "Om oss sida" men tailor store hade delat upp om oss på flera olika sidor och då valde jag jag brandstory med förhoppningen att den bäst skall motsvara om oss på övriga sidor.
+Jag skulle säga att Netflix förstasida lyckas bra med att sälja in abonnemang. det är snabbt tydligt var jag skall klicka för att göra en beställning, tittar jag vidare så känns sidan levande och intressant hela vägen ner till botten och där får jag en ny chans att beställa. De presenterar hela tiden exempel på vad de erbjuder. en dle undersidor känns dock som att de kanske hör till en gammal version av webplasten, jag är dock tveksam om någon som inte redan är kund tar sig dit.
 
-Tailorstore hade för mobilerna dåliga pagespeed-betyg på samtliga sidor, 57 för startsidan, 62 för designsidan och 68 för brand-story. Däremot hade de riktigt bra resultat för datorer, 95 för startsidan och 99 för både designsidan och brand-story. I samtliga mätningar utom brand-story för datorer så föreslogs förbättringen "Ta bort resurser som blockerar renderingen" och i fyra av mätningarna föreslogs förbättringen "Ta bort oanvänd CSS". I mätningen brand-story för datorer föreslogs ingen förbättring.
+HBO Nordic
 
-Dev Tools ger att första sidan är 3,4 mb stor, har 84 resurser som laddas och blir färdigladdad på 10,9 sekunder. Designsidan är 3,5 mb stor, har 98 resurser som laddas och blir färdigladdad på 13,9 sekunder.
-Om-sidan är 2,5 mb stor, har 54 resurser som laddas och blir färdigladdad på 7,74 sekunder.
+HBOs sida känneteckans av rörelse, perspektiv, harmoni, sammanhållning och balans. Bakgrunden är lika genom hela sidan och består av en bakgrundsbild som är ett kollage av bilder från olika serier och filmer. Mellan bilderna finns svarta lutande linjer som skapar en rörelse. Ovanpå detta finns en mitten kolumn som scrollar förbi bakgrundsbilden vilket skapar ett intryck av att mitten kolumnen ligger framför själva bakgrundsbilden. Mitten kolumnenn delar dessutom bakgrundsbilden precis mitt i och det är symmertriska delar på varje sida vilket skapar en balans.
 
-Printscreens:
-[FIGURE src="image/rapport05/tailorstore01.png?w=400" class="rapport" caption="Tailorstore print 1"]
+Designelement som jag hittar är transparence, direkt när man börjar scrolla ändras transparansen för bakgrundsbilden vilket skapar ett större djup på sidan. Det finns ett tydligt grid i att allt innehåll ligger längs med mittenkolumnen. De knappar där man kan beställa har en tydlig färg som kontrsaterar mot övriga sidan och lyckas dra ögonen till sig.
 
-Skjortfabriken
-Jag mätte på första sidan http://skjortfabriken.com/, sidan för skjortdesign http://skjortfabriken.com/ShirtDesigner och "om skjortfabriken" sidan http://skjortfabriken.com/t-ns_aboutnordicshirts.aspx
+En snabb titt på några undersidor visar att bakgrundsbilden byts mot en helt svart bakgrundsfärg men det känns ändå sammanhållet, perspektivdelen av designen försvinner dock en aning, även om den ofta finns på den övresta flashbilden. Griden blir nästan ännu tydligare, medans balansen blir lite otydligare då det blir tre kolumner som förvisso är centrerade, men den tydliga mittlinjen försvinner.
 
-Skjortfabriken har dåliga betyg på pagespeed för samtliga sidor, 64 för startsidan, 40 för designsidan och 68 för om-sidan. För datorer var betygen bättre, dock fortfarande dåligt för designsidan som fick 66, startsidan och om-sidan fick helt ok betyg, 91 respektive 89. i samtliga mätningar föreslogs förbättringen "Ta bort resurser som blockerar renderingen" och i all mätningar utom på om-sidan för datorer föreslogs förbättringen "Minska svarstiderna från servern (tid till första byte)".
+HBO skulle jag säga lyckas väl, sidan ser bra och spännande ut och får mig att bli intresserad av deras serier. Det finns många och tydliga knappar där jag kan beställa abonnemang och det är tydligt vilka kampanjer de har nu. Något som de dock borde se över är laddningstiderna då jag behöver vänta efter att jag tryckt på en länk trots att jag sitter på en dator och det förtar ju viljan att handla något.
 
-Dev Tools ger att första sidan är 2,6 mb stor, har 71 resurser som laddas och blir färdigladdad på 10,51 sekunder. Designsidan är 2,3 mb stor, har 151 resurser som laddas och blir färdigladdad på 10,71 sekunder.
-Om-sidan är 1,7 mb stor, har 59 resurser som laddas och blir färdigladdad på 4,12 sekunder.
-
-Printscreens:
-[FIGURE src="image/rapport05/skjortfabriken01.png?w=400" class="rapport" caption="Skjortfarbriken print 1"]
 
 Analys
 -----------------------
 
-Det var förvånsvärt stor skilland mellan sidorna, jag hade förväntat mig dåliga resultat för mobiler men inte riktigt så dåliga resultat för datorer och skillnaderna i laddningstid för stratsidorna är väldigt stora speciellt mellan itailor och de andra två, till itailors försvar skall dock sägas att deras förstasida innehåller ett rullande bildspel där varje bild stannar i ett par sekunder villet gör att dte tar tid tills hela spelt har kört igenom och dev tools anser att sidan är färdigladdad. itailor verkar till viss del vara medvetna om problemet då de använder sig av en en för sida som visar hur stor del av sidan som är laddad och vid 100% redirectar till den färdigladdade sidan. Det gör det något lättar att vänta, även om man ofta också tittar på något annat ett tag och låter itailor ladda i bakgrunden. Jag var väldigt positivt överraskad av tailorstores höga resultat för datorer.
-Att alla sidorna har dåliga resultat för mobiler var som sagt var inte överraskande. Själva konceptet för sidorna är att du skall designa din egen skjorta ta dina mått och sedan beställa. Det är nog något du oftast gör hemma med tillgång till en dator, för designdelen vill du nog ofta också ha tillgång till en större skärm. Jag hade dock trott att det skulle ha lagts lite mer kraft på att få till snabba första sidor och om-sidor även på mobiler. Trots allt så det nog först med en mobil som du hittar sidorna och får upp ett intresse för dem.
+Det vara intressant att se att både Netflix och HBO hade en förstasida där en stor del av designen baserades på bilder från serier och filmer avgränsade av lutande linjer. Det skapar ett bra intryck av rörelse. Dte märktes tydligt att Viaplay mer än de andra hade koncentrerat sig på balans, näsan till graden av att bli tråkiga, de misslyckades dessutom med att använda kontrast, dä deras skiftning av bakgrundsfärg drog ögonen till sig mer än köp knappen. Rent utseendemässigt skulle jag säga att HBO lyckdes bäst med att sälja in sina tjänster, de hade en avancerad design som gav resultat, det märktes dock i form av laddningstider, något Netflix inte hade problem med då de hade en enklare design. Det är intressant att se vilken avvägning som gjorts där.
 
-Minska svarstiderna från servern (tid till första byte) är nog den förbättring som pagespeed föreslår oftast om man ser till alla sidor, däremot är det långt ifrån alltid som den har mycket effekt. För både itailor och tailorstore är förbättringen "Ta bort oanvänd CSS" vanligt förekommande och det är också den förbättring jag tror skulle ge bäst effekt givet uppskattade tidsförbättringar från Pagespeed. Att ta bort resurser som blockerar renderingen är vanligt förekommande på alla platserna och kan antgligen ge en del förbättringar också. Givetvis förekom förslag om att optimera bilderna på ett eller annat sätt på alla siter, men det var inte alls i så stor utsträckning som jag hade förväntat mig och det var lite olika förslag som förekom, "Skicka bilder i modernare bildformat", var nog vanligast följt av "Koda bilder effektivt".
-
-Jag skulle tro att samtliga sidor också bör se över antalet resurser som laddas då det är ett stort antal, speciellt på designsidorna. Itailor bör definitivt se över sina tredjepartsresurser då de enligt pagespeeds diagnostik ofta stoppade renderingen en lång tid.
-
-På en sådan här sida här det absolut viktigaste för mig att designverktyget fungerar bra, helst även på mobilen då jag ofta leker runt med designer på mobilen och sedan tittar närmare på dem när jag sitter vid en dator. Givetvis är också förstasidan viktig, det är ju vägen till designsidan och det är även där jag ofta upptäcker nyheter och erbjudanden som gör att jag kan vilja utvärdera sidan ytterliggare. Om sidan är viktig först om jag hittat något av intresse, där brukar jag kunna hitta sådant som fraktvillkor, var företaget är beläget, om de har några etiska åtaganden etc. sådnat kan avgöra om jag vill köpa av den webplatsen eller inte och när jag väl vill få dne informationen är det bra om jag slipper vänta. Så kriterierna är i följande ordning snabb (tid till interaktivit tillstånd) designsida på dator, snabb designsida på mobil, snabb förstasida, snabb om-sida.
-
-Skjortfabriken är snabbast till interaktivt tillstånd på design sidan och har också snabbast laddningstider i dev-tools på samtliga sidor, så jag sätter dem som vinanre med tailor-store som en nära tvåa pga deras höga betyg på pagespeed. itailor hamnar långt efter.
-
-Om jag skall sätta en gråns mellan en snabb och en långsam webplats så ligger dte nog på 10 sekunder, vilket innebär att samtliga platser i mitt test får räkans som långsamma. Med tanke på platsernas syfte så väntar jag mig dock en långsammare plats när jag besöker dem och det är andra kvaliteter som kan avgöra om jag kommer tillbaka eller inte.
+Då data allt mer är det som kostar i kommunikationen idag och dessa tjänster är något som driver mycket data tror jag att netflix kan tjäna mycket på att de har en eklare men fortfarande effektiv design. Vilket visar att de veta att koda för en bra överföring inte bara av stillbild utan även av video utan att det kpstar för mycket. Lite grand får jag känslan av Netflix vänder sig till en bred publik medans HBO snarare siktar på att vara någon form av lyxprodukt. Vad Viaplay vill vet jag inte riktigt deras design känns inyte alls lika genomtänkt och genomarbetad, de känns lite som en uppstart på marknaden i jämförelse med de andra två, det kan iofs bero på att de har större fokus på traditionell TV och farmförallt sport.
 
 Referenser
 -----------------------
+Visual literacy https://dbwebb.se/article/vl.pdf
+Design elements and principles https://www.canva.com/learn/design-elements-principles/
 
 Övrigt
 -----------------------

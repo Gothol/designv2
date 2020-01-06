@@ -16,7 +16,7 @@ För varje plats valde jag tre sidor att mäta hastigheten på, jag mätte hasti
 Resultat
 -----------------------
 
-Insamlad mätdata finn i detta dokument: https://docs.google.com/spreadsheets/d/1PlYc7xUm5i_sAMts6npojun0wtriuhsfxtwHKBBMqBg/edit?usp=sharing. I sammanfattningen så ser ni det som visas på pagespeed samt längst ner i varje mobilkolumn finns också värden från dev tools. I fliken för respektive plats finns detaljer från pagespeed och samliga tre mätningar från dev tools för varje sida.
+Insamlad mätdata finns i detta dokument: https://docs.google.com/spreadsheets/d/1PlYc7xUm5i_sAMts6npojun0wtriuhsfxtwHKBBMqBg/edit?usp=sharing. I sammanfattningen så ser ni det som visas på pagespeed samt längst ner i varje mobilkolumn finns också värden från dev tools. I fliken för respektive plats finns detaljer från pagespeed och samliga tre mätningar från dev tools för varje sida.
 
 
 iTailor
