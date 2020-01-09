@@ -1,0 +1,94 @@
+//new positions and margins for the designelements.
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns - 2);
+    #desinax-vgrid.push(1);
+}
+
+.region-main.has-sidebar.has-sidebar-right.has-sidebar-left{
+                #desinax-vgrid.column(@columns / 2 );
+                #desinax-vgrid.push(1);
+}
+
+.region-sidebar-left {
+    #desinax-vgrid.push(1);
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.region-sidebar-right {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.region-sidebar-left.has-sidebar-right {
+    #desinax-vgrid.push(0);
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left{
+    #desinax-vgrid.push(1);
+    margin-top: 24px;
+}
+
+.footer-column-1 {
+    #desinax-vgrid.column(@columns / 3);
+    #desinax-vgrid.push(1);
+}
+
+.footer-column-2,
+.footer-column-3 {
+    #desinax-vgrid.column(@columns / 3 - 2);
+    #desinax-vgrid.push(1);
+}
+
+.block.site-footer {
+    #desinax-vgrid.column(@columns - 2);
+    #desinax-vgrid.push(1);
+}
+
+.outer-wrap {
+    margin-bottom: 1.3em;
+}
+
+.outer-wrap-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+.region-main .article {
+    margin-top: @magicNumber;
+    margin-bottom: @magicNumber;
+}
+
+.footer-column-1.block,
+.footer-column-2.block,
+.footer-column-3.block {
+    margin-top: @magicNumber;
+    margin-bottom: @magicNumber;
+}
+
+.block.site-footer p {
+    margin-top: @magicNumber;
+    margin-bottom: @magicNumber;
+}
+
+.blog-list {
+    margin-bottom: @magicNumber;
+}
+
+.region-after-main p {
+        margin-bottom: 0;
+    }
+
+.route-style .region-main {
+    margin-top: @magicNumber;
+    margin-bottom: @magicNumber;
+}

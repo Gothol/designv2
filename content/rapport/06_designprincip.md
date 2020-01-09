@@ -1,4 +1,4 @@
-Utvärdering av laddningstider på webplatser
+Utvärdering av design på webplatser
 =======================
 
 Det här är en utvärdering av designen på tre stycken webplaster. Syftete är att avgöra vilka designprinciper och designelement som använts för att sedan analysera om designen lyckas eller inte.
@@ -49,7 +49,6 @@ En snabb titt på några undersidor visar att bakgrundsbilden byts mot en helt s
 
 HBO skulle jag säga lyckas väl, sidan ser bra och spännande ut och får mig att bli intresserad av deras serier. Det finns många och tydliga knappar där jag kan beställa abonnemang och det är tydligt vilka kampanjer de har nu. Något som de dock borde se över är laddningstiderna då jag behöver vänta efter att jag tryckt på en länk trots att jag sitter på en dator och det förtar ju viljan att handla något.
 
-
 Analys
 -----------------------
 
@@ -59,8 +58,9 @@ Då data allt mer är det som kostar i kommunikationen idag och dessa tjänster 
 
 Referenser
 -----------------------
-Visual literacy https://dbwebb.se/article/vl.pdf
-Design elements and principles https://www.canva.com/learn/design-elements-principles/
+[Visual literacy https://dbwebb.se/article/vl.pdf](https://dbwebb.se/article/vl.pdf)
+
+[Design elements and principles https://www.canva.com/learn/design-elements-principles/](https://www.canva.com/learn/design-elements-principles/)
 
 Övrigt
 -----------------------

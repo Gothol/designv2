@@ -1,6 +1,28 @@
 Revision history
 ================================
 
+Version 6.0.1 (2020-01-06)
+--------------------------------------
+
+* Created report 07_designelement.md
+* Changed name on all reports deleted the kmomXX part of the name.
+* Changed text and url for reports in the navbar and responsive menu.
+* Added report 07_designelement to the navbar and responsive menu.
+* Created kmom06_designelement.less.
+* Added background image and transparent gradient to body.
+* Added Margin between regions.
+* Added background gradient to header.
+* Removed backround from region-flash.
+* added boxshadows to all regions except headern
+* Made header sticky
+* Added backround-texture to alla regions except header.
+* Added link to source for background-texture in the footer.
+* sorted new code in to two new modules.
+* Added plain backround to all parts with content.
+* Added borders to all parts with content.
+* Added text to report 07_designelement.md
+
+
 Version 6.0.0 (2020-01-05)
 ---------------------------------------
 

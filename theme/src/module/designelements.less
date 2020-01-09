@@ -1,0 +1,123 @@
+//backbounds images and colors
+
+body {
+    background: linear-gradient(rgba(150, 209, 255, 0.4 ), rgba(221, 221, 255, 0.4)), url("../../htdocs/img/vattenfall2.jpg") no-repeat fixed right/100%;
+}
+
+.inner-wrap-main,
+.inner-wrap-after-main,
+.inner-wrap-breadcrumb,
+.footer-column-wrapper,
+.block.site-footer,
+.inner-wrap-footer {
+    background: url("../../htdocs/img/background/buried.png");
+}
+
+.footer-column-wrapper,
+.block.site-footer,
+.inner-wrap-footer{
+    background-color: @bgcolorheaderfooter;
+}
+
+.inner-wrap-header {
+    box-shadow: none;
+    background: linear-gradient(@bgcolorheaderfooter, #ffffff);
+}
+
+.breadcrumb-list {
+    background-color: @bgcolorbread;
+}
+
+.region-main .article,
+.blog-list {
+    background-color: @bgcolormain;
+}
+
+.region-sidebar-left {
+    background-color: @bgcolormain;
+}
+
+.outer-wrap-flash {
+    background: none;
+}
+
+.region-after-main .block {
+    background-color: @bgcolorbyline;
+}
+
+.footer-column-1,
+.footer-column-2,
+.footer-column-3 {
+    &.block {
+        background-color: @bgcolorheaderfooter;
+    }
+}
+
+.block.site-footer {
+    & p {
+        background-color: @bgcolorheaderfooter;
+    }
+}
+
+.route-style .region-main {
+    background-color: @bgcolormain;
+}
+
+
+//borders and shadows
+.inner-wrap-main,
+.inner-wrap-after-main,
+.inner-wrap-footer,
+.inner-wrap-breadcrumb
+{
+    box-shadow: 0.5em 0.8em rgba(20,20,20,0.6);
+}
+
+.region-flash img{
+    box-shadow: 0.5em 0.8em rgba(20,20,20,0.6);
+}
+
+.breadcrumb-list {
+    border-color: #8f8fee;
+    border-style: groove ridge ridge groove;
+    border-width: 0.3em;
+}
+
+.region-main .article,
+.region-sidebar-left,
+.region-sidebar-right,
+.blog-list {
+    border-color: #eee;
+    border-style: groove ridge ridge groove;
+    border-width: 0.3em;
+}
+
+.region-after-main .block {
+    border-color: #cce;
+    border-style: groove ridge ridge groove;
+    border-width: 0.3em;
+}
+
+.footer-column-1,
+.footer-column-2,
+.footer-column-3 {
+    &.block {
+        border-color: #85c0ee;
+        border-style: groove ridge ridge groove;
+        border-width: 0.3em;
+    }
+}
+
+.block.site-footer {
+    & p {
+        border-color: #85c0ee;
+        border-style: groove ridge ridge groove;
+        border-width: 0.3em;
+    }
+}
+
+.route-style .region-main {
+    border-color: #eee;
+    border-style: groove ridge ridge groove;
+    border-width: 0.3em;
+}

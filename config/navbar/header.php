@@ -60,19 +60,24 @@ return [
             "submenu" => [
                 "items" => [
                     [
-                        "text" => "Kmom04",
-                        "url" => "rapport/kmom04_fargschema",
-                        "title" => "Rapport för kmom04.",
+                        "text" => "Färgschema",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport färgschema.",
                     ],
                     [
-                        "text" => "Kmom05",
-                        "url" => "rapport/kmom05_laddningstid",
-                        "title" => "Rapport för kmom05.",
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport laddningstid.",
                     ],
                     [
-                        "text" => "Kmom06",
-                        "url" => "rapport/kmom06_designprincip",
-                        "title" => "Rapport för kmom06.",
+                        "text" => "Designprincip",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport Designaprincip.",
+                    ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Rapport Designelement.",
                     ],
                 ],
             ],
