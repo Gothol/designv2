@@ -1,7 +1,7 @@
 /*!
  * Stylesheet for design kmom06.
  *
- * This stylesheet is for the design course and kmom06 where we use LESS.
+ * This stylesheet is for the design course and kmom05 where we use LESS.
  */
 
  /*Import mixins*/
@@ -79,10 +79,6 @@ figure.figure-codepen {
 @import "@desinax/responsive-menu/less/media-queries.less";
 @import "module/navigation.less";
 
-//designelements
-@import "module/designelements.less";
-@import "layout/designlayout1.less";
-
 /**
  * My own settings, not currently in their own module.
  */
@@ -91,6 +87,91 @@ h3 {
     clear: both;
 }
 
+body {
+    background: repeating-linear-gradient(to top left, #a25efd 1px, #a25efd 1px, #ddf 3px, #ddf 50px);
+}
+
+.block.site-footer,
+.footer-column-wrapper {
+    background: none;
+}
+
+
+.outer-wrap-header,
+.outer-wrap-footer,
+.outer-wrap-after-main {
+    background-color: #03030366;
+    padding-bottom: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+.outer-wrap-main,
+.outer-wrap-flash,
+.outer-wrap-breadcrumb, {
+    background-color: #03030366;
+}
+
+.outer-wrap-header {
+    margin-bottom: 0.5em;
+}
+
+.inner-wrap-main,
+.inner-wrap-flash,
+.inner-wrap-breadcrumb,
+.inner-wrap-header,
+.inner-wrap-footer,
+.inner-wrap-after-main {
+    background: url("../../htdocs/img/background/3px-tile.png");
+    margin-right: 0.5em;
+}
+
+.inner-wrap-header,
+.inner-wrap-footer {
+    background-color: @bgcolorheaderfooter;
+}
+
+.inner-wrap-flash,
+.inner-wrap-breadcrumb,
+.inner-wrap-main,
+.inner-wrap-after-main {
+    background-color: @bgColorBody;
+}
+
+.region-header-col-2 {
+    background-color: #ffffff88;
+}
+
+.rm-desktop ul {
+    background-color: #03030366;
+    padding-bottom: 0.7em;
+    padding-right: 0.5em;
+}
+
+.rm-desktop ul li{
+    background: url("../../htdocs/img/background/3px-tile.png");
+    background-color: @bgcolornav;
+    color: @colornav;
+}
+
+.rm-desktop ul li a {
+    background-color: #ffffff88;
+}
+
+.region-main,
+.region-after-main {
+    background-color: #ffffff88;
+    margin-bottom: 0.5em;
+}
+
+.footer-column-1,
+.footer-column-2,
+.footer-column-3 {
+    background-color: #ffffff88;
+}
+
+.site-footer p {
+    background-color: #ffffff88;
+}
 
 
 

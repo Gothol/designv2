@@ -1,7 +1,16 @@
 Revision history
 ================================
 
-Version 6.0.1 (2020-01-06)
+Version 6.0.2 (2020-01-09)
+--------------------------------------
+
+* Created report 08_designpriciper.md
+* Created kmom06_designprinciper.less based on kmom05.less.
+* Added new backgrounds
+* Changed the responsive behavior for the navbar.
+
+
+Version 6.0.1 (2020-01-09)
 --------------------------------------
 
 * Created report 07_designelement.md
